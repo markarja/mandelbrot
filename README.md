@@ -1,6 +1,6 @@
 # mandelbrot
 
-A C program calculates the mandelbrot set and outputs it graphically in a window. 
+**A C program calculates the mandelbrot set and outputs it graphically in a window.**
 
 The user can zoom in on the window by selecting an area with the mouse. The time it took to compute the pixels is also rendered in the window. The mandelbrot computations are performed in parallel by 1 - n slave processes and the graphical output and user interaction are handled by the master process 0.
 
