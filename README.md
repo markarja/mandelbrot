@@ -1,4 +1,4 @@
-# mandelbrot
+# mandelbrot.c
 
 **A C program calculates the mandelbrot set and outputs it graphically in a window.**
 
@@ -9,6 +9,8 @@ The benefit of the parallellization is clearly noticeable. Here are some test ex
 Compile the program with 'mpicc -mpe=graphics mandelbrot.c -o mandelbrot -lm'
 
 Run the program with 'mpiexec -n x ./mandelbrot' where x is the number of processes.
+
+![Screenshot of the mandelbrot.c program running.](https://github.com/markarja/mandelbrot/blob/main/mandelbrot.png)
 
 Author; Markus Karjalainen (uid markarja, matnr. 29849)
 Version: 2010-11-06
